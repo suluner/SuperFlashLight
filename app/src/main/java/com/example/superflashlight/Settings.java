@@ -44,7 +44,7 @@ public class Settings extends PoliceLight implements OnSeekBarChangeListener {
 
     @Override
     public void onStopTrackingTouch(SeekBar seekBar) {
-        // TODO Auto-generated method stub
+        // TODO Auto-generated method
 
     }
 
