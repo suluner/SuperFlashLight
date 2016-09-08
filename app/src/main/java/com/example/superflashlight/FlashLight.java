@@ -72,7 +72,7 @@ public class FlashLight extends BaseActivity {
         TransitionDrawable drawable = (TransitionDrawable)mImageViewFlashlight.getDrawable();
         if(((boolean)mImageViewFlashlight.getTag()))
         {
-            drawable.startTransition(200);
+            drawable.reverseTransition(200);
             mImageViewFlashlight.setTag(false);
 
             if(mCamera != null)
